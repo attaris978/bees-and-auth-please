@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "test": "cross-env NODE_ENV=testing jest --verbose --runInBand"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +15,9 @@
     "@types/jest": "^28.1.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.17.0",
-    "nodemon": "^2.0.16"
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
