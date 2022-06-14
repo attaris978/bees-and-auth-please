@@ -22,7 +22,7 @@ export default function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Message />
-        <h1>Interview Demo</h1>
+        <h1>🐝 How to Bee Highly Employable 🐝</h1>
         <nav>
           <NavLink id="wheelLink" to="/">Wheel</NavLink>
           <NavLink id="login" to="/login">Login-App</NavLink>
