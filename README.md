@@ -3,8 +3,8 @@ React | React-Redux | Node | Express | Knex | SQLite | React-Router
 <h2>Overview</h2>
 This project began as part of a <b>Bloom Institute of Technology</b> <i>Full-Stack Web Development</i> program which aimed to test competency with React-Redux, amongst many other concepts. The visual layout for the Wheel component is derived from that project. I reworked the logic and wrote a backend to add a secondary widget, accessible through a React-Router NavLink.
 <h2>Spinning It Up</h2>
-The backend can be run by navigating to the <b>back</b> folder and running <i>npm run server</i>.
-The frontend can be run by navigating to the <b>front</b> folder and running <i>npm run dev</i>
+The backend can be run by navigating to the <b>back</b> folder, running <i>npm i</i>, then running <i>npm run server</i>.
+The frontend can be run by navigating to the <b>front</b> folder, running <i>npm i</i>, then running  <i>npm run dev</i>.
 <h2>All the Persnickety, Complicated Details of Use and Operation</h2>
 Access each widget using the NavLinks toward the top of the page.
 The Login component requires a username and password to login (which may have presented itself as a likelihood to you). Presently, registration is not enabled, so try logging in using the master account:
