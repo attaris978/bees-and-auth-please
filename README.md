@@ -8,8 +8,7 @@ The frontend can be run by navigating to the <b>front</b> folder and running <i>
 <h2>All the Persnickety, Complicated Details of Use and Operation</h2>
 Access each widget using the NavLinks toward the top of the page.
 The Login component requires a username and password to login (which may have presented itself as a likelihood to you). Presently, registration is not enabled, so try logging in using the master account:
-<b>username:</b> overlord
-<b>password:</b> 1234
+<p><b>username:</b> overlord</p><b>password:</b> 1234</p>
 Successful login triggers the conditionally-rendered appearance of a collection of articles and a means of inputting articles, editing them, and removing them. It also causes a logout button to render.
 Access to the articles is managed using authentication via jsonwebtokens, created through the backend.
 Authentication and article data is stored using knex and SQLite.
